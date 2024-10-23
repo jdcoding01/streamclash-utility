@@ -1,0 +1,142 @@
+// License
+
+addon_account_data, owner, 4
+ak47_housing, owner, 2
+banking_loans, player_id, 2
+banking_users, identifier, 1
+basketball_rpg, identifier, 2
+billing, identifier, 2
+cdev_pets, owner, 3
+comp_requests, character_id, 3
+dealership_employees, identifier, 2
+dealership_sales, player, 5
+drunk_stats, identifier, 1
+drx_mdt_player_link, identifier, 1
+dynasty_miner, identifier, 1
+fishing_players, identifier, 1
+gangblocks, owner, 8
+gangs, identifier, 2
+gang_zones, gang_id, 3 (id table.gangs)
+golf_memberships, user, 1
+hud_settings, citizenid, 2
+k9, identifier, 2
+kub_truckingcontracts, citizenid, 2
+kub_truckingplayervehicles, citizenid, 2
+kub_truckingprofile, citizenid, 2
+laundrymat, owner, 4
+lost_laundry, owner, 1
+mw_crafting, owner, 2
+okokbilling, receiver_identifier, 3
+okokbilling, author_identifier, 5
+owned_vehicles, owner, 1
+ox_inventory, owner, 1
+player_blueprints, identifier
+player_outfits, citizenid
+player_xp, identifier,
+ra_boosting_contracts, owner_identifier
+ra_boosting_user_settings, player_identifier
+ra_racing_races, started_by_identifier
+ra_racing_results, player_identifier
+ra_racing_users_settings, player_identifier
+rcore_prison, owner
+rcore_prison_accounts, owner
+rcore_prison_accounts_log, charId
+rcore_prison_logs, charId
+rcore_prison_stash, owner
+rcore_tattoos, identifier
+snipe_apartments, identifier
+snipe_apartments_furniture, identifier
+snipe_apartments_stashoutfit, identifier
+snipe_apartments_state, identifier
+snipe_furniture_stash, identifier
+snipe_moonshine, identifier
+snipe_moonshine_data, identifier
+sprays, identifier
+wasabi_fingerprints, identifier
+zerio_radio_contacts, identifier
+zerio_radio_favorites, identifier
+zerio_radio_message, sender
+zerio_radio_message, receiver
+zerio_radio_recents, identifier
+zerio_radio_settings, identifier
+user_licenses, owner
+users, identifier
+
+
+
+
+
+
+player_houses, citizenid
+player_houses, owner 
+player_houses, keyholders [...licenses]
+
+
+
+
+phone_phones, owner_id, 2 // license
+phone_phones, phone_number, 3 (delete all phone data based on phone numbers from phone_phones) // phone number
+phone_backups, id, 1 // license
+phone_clock_alarms, phone_number, 2 // pone number
+phone_darkchat_accounts, phone_number, 1 // phone number
+phone_instagram_accounts, phone_number, 10, // phone number
+phone_last_phone, id, 1 // license
+phone_logged_in_accounts, phone_number, 1 // phone number
+phone_maps_locations, phone_number, 2 // phone number
+phone_marketplace_posts, phone_number, 2 // phone number
+phone_message_members, phone_number, 2 // phone number
+phone_message_messages, sender, 3 // phone number
+phone_music_playlist, phone_number, 2 // phone numbeer
+phone_music_saved_playlists, phone_number // phone number
+phone_notes, phone_number // phone number
+phone_notifications, phone_number // phone number
+phone_phone_blocked_numbers, phone_number // phone number
+phone_phone_blocked_numbers, blocked_number // phone number
+phone_phone_calls, caller // phone number
+phone_phone_calls, callee // phone number
+phone_phone_contacts, contact_phone_number // phone number
+phone_phone_contacts, phone_number // phone number
+phone_phone_voicemail, caller // phone number
+phone_phone_voicemail, callee // phone number
+phone_phone_voicemail, caller // phone number
+phone_photos, phone_number // phone number
+phone_photo_albums, phone_number // phone number
+phone_services_channels, phone_number // phone number
+phone_services_message, sender // phone number
+phone_tiktok_accounts, phone_number // phone number
+phone_tinder_accounts, phone_number // phone number
+phone_tinder_matches, phone_number_1 // phone number
+phone_tinder_matches, phone_number_2 // phone number
+phone_tinder_messages, sender // phone number
+phone_tinder_messages, recipient // phone number
+phone_tinder_swipes, swiper
+phone_tinder_swipes, swipee
+phone_twitter_accounts, phone_number
+phone_voice_memos_recordings, phone_number
+phone_wallet_transactions, phone_number
+phone_yellow_pages_posts, phone_number
+
+ 
+
+
+
+// State ID
+
+drx_mdt_bolos, author, 9
+drx_mdt_evidence, author, 5
+drx_mdt_evidence_link, identifier, 3
+drx_mdt_incident, author, 5
+drx_mdt_incident_criminals, identifier, 2
+drx_mdt_incident_link, identifier, 3
+drx_mdt_officers, identifier, 1
+drx_mdt_player_link, stateid, 2
+comp_requests, state_id, 2
+drx_mdt_report, author, 5 
+drx_mdt_report, citizens, 10
+drx_mdt_report, officers, 11 // validate if indexOf is not -1, if so remove from list
+drx_mdt_report_link, identifer, 3
+drx_mdt_roster, identifier, 1,
+drx_mdt_vehicle_link, identifier, 1
+drx_mdt_warrants, identifier, 2
+drx_mdt_warrants, author, 7
+drx_mdt_weapons, owener, 2

@@ -1,0 +1,240 @@
+
+
+// License
+addon_inventory_items, owner, X 
+ak4y_dailywheel, citizenid 
+k4y_donatesystem, citizenid, X
+banking, identifier , X
+banking_loans, player_id
+banking_management, identifier, X
+banking_users, identifier
+bans, license, X
+basketball_rpg, identifier
+billing, identifier, X
+billing, sender, X
+bossmenu, identifier                                                                 
+burglary, identifier                                                                   
+cd_dispatch, identifier                                                           
+cdev_pets, owner                                                                   
+cdev_pets_petshops_employees, identifier, X                   
+cdev_pets_petshops_sales, identifier, X                             
+chopshop_players, identifier                                               
+comp_requests, character_id                                              
+dealership_data, owner_id                                                  
+dealership_employees, identifier                                       
+dealership_sales, player                                                       
+dealership_sales, seller                                                       
+delivery_players, identifier                                                  
+documents_photos, identifier                                              
+drc_crafting, identifier                                                           
+drc_gardener, identifier                                                        
+drunk_stats, identifier, X                                                       
+drx_mdt_academy, identifier, X                                            
+drx_mdt_database, identifier, X                                                                           
+dynasty_miner, identifier
+fishing_players, identifier
+frkn_tebex, claimedhex, X
+gangs, identifier 
+golf_memberships, user 
+gruppe6_players, identifier, X
+k9, identifier
+kub_truckingcontracts, citizenid 
+kub_truckingplayervehicles, citizenid
+kub_truckingprofile, citizenid
+lost_laundry, owner
+lost_player_houses, identifier
+m_hud_playlists, owner, X
+m_hud_stress, identifier, X
+multicharacter_slots, identifier, X
+multichars_slot, identifier, X
+mw_crafting, owner
+okokbilling, receiver_identifier 
+okokbilling, author_identifier
+okokgarage_companies, owner, X
+owned_themepark, identifier, X
+owned_vehicles, owner
+pd_election, identifier 
+pefcl_cash, ownerIdentifier, X
+pefcl_external_accounts, userId, X
+pefcl_shared_accounts, userIdentifier, X
+-------------------------------------------
+TBD
+-------------------------------------------
+phone_twitter_messages
+phone_twitter_notifications
+phone_twitter_promoted
+phone_twitter_retweets
+phone_twitter_tweets
+phone_voice_memos_recordings
+phone_wallet_transactions
+phone_yellow_pages_posts
+ping_data
+player_blueprints
+player_garages
+player_horses
+player_houses
+player_outfit_codes
+player_outfits
+player_priv_garages
+player_xp
+playerskins
+prison_players
+protections
+ps_polyzones
+queue
+ra_boosting_contracts
+ra_boosting_user_settings
+ra_racing_events
+ra_racing_races
+ra_racing_results
+ra_racing_tracks
+ra_racing_user_settings
+radiocar_music
+radiocar_owned
+radiocar_playlist
+rcore_banners_billboards
+rcore_banners_list
+rcore_banners_placed
+rcore_guidebook_categories
+rcore_guidebook_pages
+rcore_guidebook_points
+rcore_prison
+rcore_prison_accounts
+rcore_prison_accounts_log
+rcore_prison_coms
+rcore_prison_coms_sessions
+rcore_prison_contacts
+rcore_prison_logs
+rcore_prison_stash
+rcore_prison_transactions
+rcore_reports
+rcore_reports_admin_chat
+rcore_reports_tags
+rcore_tattoos
+rcore_tattoos_business
+rcore_whiteboard
+rcore_whiteboard_boards
+rented_vehicles
+rivalries
+robberies_creator_cargo_robberies
+robberies_creator_heists
+robberies_creator_plannings
+screenshots
+server_stats_tracker
+snipe_apartments
+snipe_apartments_furniture
+snipe_apartments_keys
+snipe_apartments_stashoutfit
+snipe_apartments_state
+snipe_furniture_stash
+snipe_moonshine
+snipe_moonshine_data
+society_moneywash
+sold_properties
+sold_vip_cars
+spawn_locations
+sprays
+strain
+tbx_transactions
+tuning_categories
+tuning_upgrades
+uniq_safezones
+user_licenses
+users
+vehicle_categories
+vehicle_hash_prices
+vehicle_shops
+vehicle_sold
+vehicle_speeds
+vehicle_tuning
+vehicles
+wasabi_evidence
+wasabi_fingerprints
+wasabi_manual_prints
+weapon_shipments
+weed_plants
+whitelist
+zerio_radio_contacts
+zerio_radio_favorites
+zerio_radio_messages
+zerio_radio_recents
+zerio_radio_settings
+zpxcasino_topwinners
+--------------------------------
+END TBD
+-------------------------------
+
+// Phone
+phone_backups, id 
+phone_clock_alarms, phone_number
+phone_darkchat_accounts, phone_number
+phone_instagram_accounts, phone_number
+phone_instagram_loggedin, phone_number 
+phone_last_phone, id, x 
+phone_number, phone_number
+phone_mail_loggedin, phone_number 
+phone_maps_locations, phone_number 
+phone_marketplace_posts, phone_number
+phone_messages_members, phone_number 
+phone_message_messages, sender
+phone_music_playlists, phone_number 
+phone_music_saved_playlists, phone_number
+phone_notes, phone_number
+phone_notifications, phone_number
+phone_phone_blocked_numbers, phone_number
+phone_phone_calls, caller
+phone_phone_calls, callee
+phone_phone_contacts, contact_phone_number
+phone_phone_voicemail, caller
+phone_phone_voicemail, callee
+phone_phones, id
+phone_phones, owner_id
+phone_photo_albums, phone_number
+phone_photos, phone_number
+phone_services_channels,  phone_number
+phone_services_messages, sender
+phone_tiktok_accounts
+phone_tiktok_channels
+phone_tiktok_comments
+phone_tiktok_comments_likes
+phone_tiktok_follows
+phone_tiktok_likes
+phone_tiktok_loggedin
+phone_tiktok_messages
+phone_tiktok_notifications
+phone_tiktok_pinned_videos
+phone_tiktok_saves
+phone_tiktok_unread_messages
+phone_tiktok_videos
+phone_tiktok_views
+phone_tinder_accounts
+phone_tinder_matches
+phone_tinder_messages
+phone_tinder_swipes
+phone_twitter_accounts
+phone_twitter_follow_requests
+phone_twitter_follows
+phone_twitter_hashtags
+phone_twitter_likes
+phone_twitter_loggedin
+
+// State ID
+drx_mdt_bolos, owner
+drx_mdt_evidence, author
+drx_mdt_evidence_link, identifier
+drx_mdt_incident, author
+drx_mdt_incident_criminals, identifier
+drx_mdt_incident_link, identifier
+drx_mdt_legislations, author
+drx_mdt_officers, identifier
+drx_mdt_report, author
+drx_mdt_report_link, identifier
+drx_mdt_roster, identifier
+drx_mdt_sops, author
+drx_mdt_tags, identifier, X
+drx_mdt_vehicle_link, identifier
+drx_mdt_warrants, identifier
+drx_mdt_weapon_link, identifier, X
+drx_mdt_weapons, owner
+
+
